@@ -1,0 +1,19 @@
+{
+  "name": "kindred",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",
+    "open": "npx cypress open",
+    "headTest": "npm run test -- --headed",
+    "firefoxTest": "npm run test -- --browser firefox",
+    "recordDashBoardTest": "npm run test -- --record --key f242ee84-6ac0-4271-9daa-b73dcb79423e --reporter mochawesome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0",
+    "mochawesome": "^7.1.3"
+  }
+}
